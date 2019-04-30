@@ -1,0 +1,10 @@
+#----------------------------
+#Author Adam Hussain
+#Print a triangle of size n
+#------------------------
+n = input("Enter a number n: ");
+counter = 1;
+diff = (n - counter);
+while counter <= n:
+    print (" "*diff) + ("*")*counter + (" "*diff);
+    counter = counter + 1;
